@@ -23,7 +23,7 @@ public class main {
         int DNI = cuenta.darDNI();
 
 
-        while (DNI < 9998999 || DNI > 99999999) {
+        while (DNI < 9999999 || DNI > 99999999) {
                 System.out.println("ERROR, introduzca un número de 8 dígitos");
                 cuenta.obtenerDNI(teclado.nextInt());
                 DNI = cuenta.darDNI();}
